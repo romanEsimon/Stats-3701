@@ -1,0 +1,14 @@
+Package: RomanSimonTools
+Title: Romans functions!!
+Version: 0.0.0.9000
+Authors@R: person("Roman", "Simon", email = "simo0698@umn.edu", role = c("aut", "cre"))
+Description: this will help in stats 3701!
+Depends: R (>= 3.3.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr

@@ -1,0 +1,63 @@
+---
+title: "Vignette Title"
+author: "Vignette Author"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r, eval=FALSE}
+library(RomanSimonTools)
+```
+
+```{r, eval=FALSE}
+cfun(rnorm(10))
+```
+
+```{r, eval=FALSE}
+dFun(rnorm(10))
+```
+
+```{r, eval=FALSE}
+a<-Inf
+b<-NaN
+c<-NA
+d<-(NULL)
+e<-('e')
+error(a,b,c,d,e)
+```
+
+```{r, eval=FALSE}
+func3(rnorm(10))
+```
+
+```{r, eval=FALSE}
+y<-c(1,2,3,2,4,5,3,5,6)
+x<-matrix(y,nrow = 3,ncol = 3,byrow = TRUE)
+q<-c(7,8,9)
+a<-matrix(q,nrow = 3, ncol = 1, byrow = TRUE)
+inv(x,a)
+```
+
+```{r, eval=FALSE}
+X<-array(x,dim = 2)
+myapply(X,1,sum)
+```
+
+```{r, eval=FALSE}
+plotMyData(rnorm(50))
+```
+
+```{r, eval=FALSE}
+x<-rnorm(35)
+stts(x)
+```
+
+```{r, eval=FALSE}
+a<-c(16,10,24,11,3,18,9,14,6,17,8,23,22,19,1,12,4,5,20,2,13,7,15,21)
+x<-matrix(a, ncol=4, byrow=TRUE)   
+stan(x)
+
+```
